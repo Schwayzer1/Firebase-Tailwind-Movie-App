@@ -13,27 +13,36 @@ Project aims to create a Movie App.
 ## Project Skeleton
 
 ```
-008 - Movie App (folder)
+----Movie App (folder)
 |
 |----readme.md         
 SOLUTION
 ├── public
 │     └── index.html
 ├── src
+|    ├── assets
+|    |     └── icons
 │    ├── auth
 │    │     └── firebase.js
 │    ├── components
-│    │     ├── MovieCard.js
-│    │     └── Navbar.js
+│    │     ├── MovieCard.jsx
+│    │     ├── Navbar.jsx
+|    |     ├── Switch.jsx
+|    |     └── VideoSection.jsx
 │    ├── context
-│    │     └── AuthContext.js
+│    │     └── AuthContext.jsx
 │    ├── pages
-│    │     ├── Login.js
-│    │     ├── Register.js
-│    │     ├── Main.js
-│    │     └── MovieDetail.js
+│    │     ├── Login.jsx
+│    │     ├── Register.jsx
+│    │     ├── Main.jsx
+│    │     └── MovieDetail.jsx
+|    |  
+|    ├── helpers
+|    |     └── ToastNotify.js
+|    |
 │    ├── router
-│    │     └── Router.js
+│    │     ├── Router.jsx
+|    |     └── PrivateRouter.jsx
 │    ├── App.js
 │    ├── App.css
 │    ├── index.js
